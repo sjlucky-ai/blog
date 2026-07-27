@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Apple SD Gothic Neo", "Segoe UI", sans-serif;
+  background: #f8f0ef;
+  color: #111;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  background: #f7d9d9;
+}
+
+.icon-btn {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 6px;
+  color: #111;
+}
+
+.right-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.logo-circle {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #27b3a8;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero-image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  padding: 28px 0;
+}
+
+.card {
+  width: 240px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.info {
+  background: #a6f0e4;
+  padding: 40px 20px 48px;
+  text-align: center;
+}
+
+.info-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.logo-circle.small {
+  width: 48px;
+  height: 48px;
+  font-size: 18px;
+}
+
+.info-top span {
+  font-size: 22px;
+}
+
+.info-text p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.info-text a {
+  color: #111;
+  text-decoration: underline;
+}

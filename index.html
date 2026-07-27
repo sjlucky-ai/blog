@@ -1,38 +1,52 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hanbit Furniture</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <img src="assets/logo.png" alt="Hanbit Logo">
-    </div>
-    <div class="icons">
-      <span>☰</span>
-      <span>🔍</span>
-      <span>⋯</span>
-    </div>
-  </header>
+import './App.css';
 
-  <section class="hero">
-    <img src="assets/main-sofa.webp" alt="Main Sofa">
-  </section>
+function App() {
+  return (
+    <div className="app">
+      <header className="topbar">
+        <button className="icon-btn">☰</button>
+        <div className="logo-circle">B</div>
+        <div className="right-icons">
+          <button className="icon-btn">🔍</button>
+          <button className="icon-btn">⋯</button>
+        </div>
+      </header>
 
-  <section class="product">
-    <img src="assets/yellow-chair.webp" alt="Yellow Chair">
-  </section>
+      <main className="page">
+        <section className="hero">
+          <img
+            className="hero-image"
+            src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80"
+            alt="living room"
+          />
+        </section>
 
-  <footer>
-    <img src="assets/logo.png" alt="Hanbit Logo">
-    <div>
-      <p><strong>test</strong></p>
-      <p>Address : Seoul Korea</p>
-      <p>E-Mail : <a href="mailto:Hanbit@hanbit.co.kr">Hanbit@hanbit.co.kr</a></p>
+        <section className="middle">
+          <div className="card">
+            <img
+              src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=800&q=80"
+              alt="chair"
+            />
+          </div>
+        </section>
+
+        <section className="info">
+          <div className="info-top">
+            <div className="logo-circle small">B</div>
+            <span>test</span>
+          </div>
+          <div className="info-text">
+            <p>
+              <a href="#">Address : Seoul Korea</a>
+            </p>
+            <p>
+              <a href="mailto:Hanbit@hanbit.co.kr">E-Mail : Hanbit@hanbit.co.kr</a>
+            </p>
+          </div>
+        </section>
+      </main>
     </div>
-  </footer>
-</body>
-</html>
+  );
+}
+
+export default App;
