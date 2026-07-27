@@ -4,122 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hanbit Furniture</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      background-color: #fff;
-    }
-
-    /* 헤더 */
-    header {
-      background-color: #FCE4EC;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-    }
-
-    .logo img {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-    }
-
-    .icons {
-      display: flex;
-      gap: 16px;
-      font-size: 20px;
-    }
-
-    /* 메인 이미지 */
-    .hero img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    /* 제품 섹션 */
-    .product {
-      display: flex;
-      justify-content: center;
-      margin: 40px 0;
-    }
-
-    .product img {
-      width: 200px;
-      border-radius: 8px;
-    }
-
-    /* 푸터 */
-    footer {
-      background-color: #A7E0E0;
-      text-align: center;
-      padding: 20px;
-    }
-
-    footer img {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-    }
-
-    footer p {
-      margin: 8px 0;
-      font-size: 14px;
-    }
-
-    footer a {
-      color: #000;
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    /* 반응형 스타일 */
-    @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .icons {
-        margin-top: 10px;
-      }
-
-      .product img {
-        width: 150px;
-      }
-
-      footer p {
-        font-size: 12px;
-      }
-    }
-
-    @media (min-width: 1024px) {
-      .product {
-        justify-content: space-around;
-      }
-
-      .product img {
-        width: 250px;
-      }
-
-      footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <div class="logo">
-      <img src="logo.png" alt="Hanbit Logo">
+      <img src="assets/logo.png" alt="Hanbit Logo">
     </div>
     <div class="icons">
       <span>☰</span>
@@ -129,15 +19,15 @@
   </header>
 
   <section class="hero">
-    <img src="1.jpg" alt="Main Sofa">
+    <img src="assets/main-sofa.webp" alt="Main Sofa">
   </section>
 
   <section class="product">
-    <img src="chair.png" alt="Yellow Chair">
+    <img src="assets/yellow-chair.webp" alt="Yellow Chair">
   </section>
 
   <footer>
-    <img src="logo.png" alt="Hanbit Logo">
+    <img src="assets/logo.png" alt="Hanbit Logo">
     <div>
       <p><strong>test</strong></p>
       <p>Address : Seoul Korea</p>
