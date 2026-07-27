@@ -128,3 +128,134 @@
   </main>
 </body>
 </html>
+```// filepath: blog/index.html
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>샘플 페이지</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Apple SD Gothic Neo", "Segoe UI", sans-serif;
+      background: #f8e1e1;
+      color: #222;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 18px;
+      background: #fcdbdb;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .icon-btn {
+      font-size: 22px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .logo-circle {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #2bb6ae;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      letter-spacing: -1px;
+      font-size: 20px;
+    }
+
+    .hero {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .hero img.bg {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    .small-card-wrap {
+      display: flex;
+      justify-content: center;
+      margin: 24px 0;
+    }
+
+    .small-card {
+      width: 240px;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+      background: white;
+    }
+
+    .small-card img {
+      width: 100%;
+      display: block;
+    }
+
+    .content {
+      text-align: center;
+      padding: 18px 16px 36px;
+    }
+
+    .content .logo-circle {
+      margin: 0 auto 12px;
+    }
+
+    .content h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .content p {
+      margin: 10px 0;
+      font-size: 18px;
+      letter-spacing: -0.3px;
+      line-height: 1.6;
+    }
+
+    .content a {
+      color: #111;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="icon-btn">☰</div>
+    <div class="logo-circle">B</div>
+    <div style="display:flex; gap:14px; align-items:center;">
+      <div class="icon-btn">🔍</div>
+      <div class="icon-btn">⋯</div>
+    </div>
+  </header>
+
+  <main class="hero">
+    <img class="bg" src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80" alt="소파 이미지" />
+    <div class="small-card-wrap">
+      <div class="small-card">
+        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" alt="의자 이미지" />
+      </div>
+    </div>
+
+    <section class="content">
+      <div class="logo-circle">B</div>
+      <h1>test</h1>
+      <p><a href="#">Address : Seoul Korea</a></p>
+      <p><a href="mailto:Hanbit@hanbit.co.kr">E-Mail : Hanbit@hanbit.co.kr</a></p>
+    </section>
+  </main>
+</body>
+</html>
