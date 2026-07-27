@@ -1,3 +1,260 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledDiv = styled.div`
+  width: 297px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #FCE2E2;
+`;
+
+const StyledDiv = styled.div`
+  width: 297px;
+  height: 83px;
+  left: 0px;
+  top: 272px;
+  position: absolute;
+  background: #A7E4DF;
+`;
+
+const StyledDiv = styled.div`
+  width: 23.20px;
+  height: 23.20px;
+  left: 137px;
+  top: 10px;
+  position: absolute;
+  background: #03AEA0;
+`;
+
+const StyledDiv = styled.div`
+  width: 23.20px;
+  height: 23.20px;
+  left: 136px;
+  top: 281px;
+  position: absolute;
+  background: #03AEA0;
+`;
+
+const StyledVector = styled.div`
+  width: 24px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+`;
+
+const StyledVector01 = styled.div`
+  width: 18px;
+  height: 12px;
+  left: 3px;
+  top: 6px;
+  position: absolute;
+  background: black;
+`;
+
+const StyledVector02 = styled.div`
+  width: 16px;
+  height: 16px;
+  left: 3px;
+  top: 3px;
+  position: absolute;
+  outline: 2px black solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector03 = styled.div`
+  width: 4.35px;
+  height: 4.35px;
+  left: 16.65px;
+  top: 16.65px;
+  position: absolute;
+  outline: 2px black solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector04 = styled.div`
+  width: 2px;
+  height: 2px;
+  left: 11px;
+  top: 11px;
+  position: absolute;
+  outline: 2px black solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector05 = styled.div`
+  width: 2px;
+  height: 2px;
+  left: 18px;
+  top: 11px;
+  position: absolute;
+  outline: 2px black solid;
+  outline-offset: -1px;
+`;
+
+const StyledVector06 = styled.div`
+  width: 2px;
+  height: 2px;
+  left: 4px;
+  top: 11px;
+  position: absolute;
+  outline: 2px black solid;
+  outline-offset: -1px;
+`;
+
+const StyledDiv = styled.div`
+  align-self: stretch;
+  height: 127px;
+`;
+
+const StyledSpan = styled.span`
+  color: black;
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 400;
+  text-decoration: underline;
+  word-wrap: break-word;
+`;
+
+const StyledP = styled.p`
+  left: 67px;
+  top: 309px;
+  position: absolute;
+  text-align: center;
+`;
+
+const StyledTestspan = styled.span`
+  color: black;
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledTest = styled.p`
+  left: 162px;
+  top: 280px;
+  position: absolute;
+  text-align: center;
+`;
+
+const StyledRectangle1 = styled.div`
+  align-self: stretch;
+  height: 63px;
+`;
+
+const StyledTextspan = styled.span`
+  color: black;
+  font-size: 12px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+`;
+
+const StyledText = styled.p`
+  width: 89px;
+  height: 63px;
+  left: 162px;
+  top: 181px;
+  position: absolute;
+`;
+
+const StyledDiv = styled.div`
+  width: 24px;
+  height: 24px;
+  left: 16px;
+  top: 10px;
+  position: absolute;
+  overflow: hidden;
+`;
+
+const StyledDiv = styled.div`
+  width: 24px;
+  height: 24px;
+  left: 217px;
+  top: 10px;
+  position: absolute;
+  overflow: hidden;
+`;
+
+const StyledDiv = styled.div`
+  width: 24px;
+  height: 24px;
+  left: 257px;
+  top: 10px;
+  position: absolute;
+  overflow: hidden;
+`;
+
+const StyledFrame1 = styled.div`
+  width: 297px;
+  height: 127px;
+  left: 0px;
+  top: 44px;
+  position: absolute;
+  background: white;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  display: inline-flex;
+`;
+
+const StyledFrame2 = styled.div`
+  width: 107px;
+  padding: 10px;
+  left: 154px;
+  top: 171px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  display: inline-flex;
+`;
+
+const StyledDiv = styled.div`
+  width: 297px;
+  height: 355px;
+  position: relative;
+  background: white;
+  overflow: hidden;
+`;
+
+export const App = () => {
+  return (
+    <StyledDiv>
+      <StyledDiv />
+      <StyledDiv />
+      <StyledDiv />
+      <StyledDiv />
+      <StyledDiv>
+        <StyledVector />
+        <StyledVector01 />
+      </StyledDiv>
+      <StyledDiv>
+        <StyledVector02 />
+        <StyledVector03 />
+      </StyledDiv>
+      <StyledDiv>
+        <StyledVector04 />
+        <StyledVector05 />
+        <StyledVector06 />
+      </StyledDiv>
+      <StyledFrame1>
+        <StyledDiv  src="https://placehold.co/297x127"/>
+      </StyledFrame1>
+      <StyledP><StyledSpan>Address : Seoul Korea<br/>E-Mail : Hanbit@hanbit.co.kr</StyledSpan></StyledP>
+      <StyledTest><StyledTestspan>test</StyledTestspan></StyledTest>
+      <StyledFrame2>
+        <StyledRectangle1  src="https://placehold.co/87x63"/>
+      </StyledFrame2>
+      <StyledText><StyledTextspan>               <br/>               <br/>               <br/>              <br/>                   </StyledTextspan></StyledText>
+    </StyledDiv>
+  );
+};
 <div class="w-72 h-96 relative bg-white overflow-hidden">
   <div class="w-72 h-11 left-0 top-0 absolute bg-red-100"></div>
   <div class="w-72 h-20 left-0 top-[272px] absolute bg-emerald-200"></div>
